@@ -1,0 +1,93 @@
+﻿2016/05/09 2:41:28 にビルドを開始しました。
+ノード 2 上のプロジェクト "C:\Users\miyako\Desktop\VC-libzbar-0.10\libzbar.vcxproj" (build ターゲット)。
+InitializeBuildStatus:
+  "AlwaysCreate" が指定されたため "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\libzbar.unsuccessfulbuild" を作成しています。
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Isrc /Isrc\iconv /Isrc\zbar /Zi /nologo /W3 /WX- /O2 /GL /D WIN64 /D _WIN64 /D WIN32 /D NDEBUG /D _USRDLL /D IDNA_EXPORTS /D HAVE_CONFIG_H /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D LIBIDN_BUILDING /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\\" /Fd"C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\vc100.pdb" /Gd /TP /wd4018 /wd4244 /wd4018 /wd4554 /wd4146 /wd4091 /wd4390 /errorReport:prompt src\config.c src\decoder.c src\decoder\codabar.c src\decoder\code128.c src\decoder\code39.c src\decoder\code93.c src\decoder\databar.c src\decoder\ean.c src\decoder\i25.c src\decoder\pdf417.c src\decoder\qr_finder.c src\error.c src\iconv\iconv.c src\image.c src\img_scanner.c src\qrcode\bch15_5.c src\qrcode\binarize.c src\qrcode\isaac.c src\qrcode\qrdec.c src\qrcode\qrdectxt.c src\qrcode\rs.c src\qrcode\util.c src\refcnt.c src\scanner.c src\symbol.c
+  config.c
+src\config.c(108): warning C4267: '=' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  decoder.c
+  codabar.c
+  code128.c
+  code39.c
+  code93.c
+  databar.c
+  ean.c
+  i25.c
+  pdf417.c
+  qr_finder.c
+  error.c
+src\error.c(127): warning C4267: '=' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+src\error.c(134): warning C4267: '初期化中' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  iconv.c
+src\iconv\iconv.c(790): warning C4267: '引数' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+src\iconv\iconv.c(817): warning C4267: '引数' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+src\iconv\iconv.c(868): warning C4267: '引数' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+src\iconv\iconv.c(1090): warning C4267: '初期化中' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  image.c
+src\image.c(244): warning C4267: '初期化中' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  img_scanner.c
+  bch15_5.c
+  binarize.c
+  isaac.c
+  qrdec.c
+src\qrcode\qrdec.c(2491): warning C4804: '<<' : 演算中の 'bool' 型の使用方法が安全ではありません
+  qrdectxt.c
+src\qrcode\qrdectxt.c(144): warning C4267: '=' : 'size_t' から 'unsigned int' に変換しました。データが失われているかもしれません。
+src\qrcode\qrdectxt.c(156): warning C4267: '=' : 'size_t' から 'unsigned int' に変換しました。データが失われているかもしれません。
+src\qrcode\qrdectxt.c(251): warning C4267: '引数' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+src\qrcode\qrdectxt.c(266): warning C4267: '引数' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+src\qrcode\qrdectxt.c(367): warning C4267: '初期化中' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+src\qrcode\qrdectxt.c(379): warning C4267: '=' : 'size_t' から 'unsigned int' に変換しました。データが失われているかもしれません。
+src\qrcode\qrdectxt.c(380): warning C4267: '=' : 'size_t' から 'unsigned int' に変換しました。データが失われているかもしれません。
+  Compiling...
+  rs.c
+  util.c
+  refcnt.c
+  scanner.c
+  symbol.c
+src\symbol.c(294): warning C4267: '=' : 'size_t' から 'unsigned int' に変換しました。データが失われているかもしれません。
+src\symbol.c(299): warning C4267: '=' : 'size_t' から 'unsigned int' に変換しました。データが失われているかもしれません。
+src\symbol.c(322): warning C4267: '=' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+src\symbol.c(328): warning C4267: '=' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+src\symbol.c(333): warning C4267: '=' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+src\symbol.c(339): warning C4267: '=' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+src\symbol.c(345): warning C4267: '=' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+src\symbol.c(348): warning C4267: '=' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+src\symbol.c(355): warning C4267: '=' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+src\symbol.c(360): warning C4267: '=' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+Lib:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\miyako\Desktop\VC-libzbar-0.10\Windows64\libzbar.0.11.lib" /NOLOGO /LTCG "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\config.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\decoder.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\codabar.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\code128.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\code39.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\code93.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\databar.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\ean.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\i25.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\pdf417.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\qr_finder.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\error.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\iconv.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\image.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\img_scanner.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\bch15_5.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\binarize.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\isaac.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\qrdec.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\qrdectxt.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\rs.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\util.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\refcnt.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\scanner.obj"
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\symbol.obj"
+  libzbar.vcxproj -> C:\Users\miyako\Desktop\VC-libzbar-0.10\Windows64\libzbar.0.11.lib
+FinalizeBuildStatus:
+  ファイル "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\libzbar.unsuccessfulbuild" を削除しています。
+  "C:\Users\miyako\Desktop\VC-libzbar-0.10\Release\libzbar.lastbuildstate" のタッチ タスクを実行しています。
+プロジェクト "C:\Users\miyako\Desktop\VC-libzbar-0.10\libzbar.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:05.34
