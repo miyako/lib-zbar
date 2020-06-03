@@ -1250,6 +1250,8 @@ extern void zbar_image_scanner_recycle_image(zbar_image_scanner_t *scanner,
 extern const zbar_symbol_set_t*
 zbar_image_scanner_get_results(const zbar_image_scanner_t *scanner);
 
+    # include "stddef.h"
+
 /** scan for symbols in provided image.  The image format must be
  * "Y800" or "GRAY".
  * @returns >0 if symbols were successfully decoded from the image,
@@ -1257,8 +1259,8 @@ zbar_image_scanner_get_results(const zbar_image_scanner_t *scanner);
  * @see zbar_image_convert()
  * @since 0.9 - changed to only accept grayscale images
  */
-extern int zbar_scan_image(zbar_image_scanner_t *scanner,
-                           zbar_image_t *image, void (*_PA_YieldAbsolute)(void));
+extern int zbar_scan_image (zbar_image_scanner_t *iscn,
+                            zbar_image_t *img, void (*_PA_YieldAbsolute)(void), size_t interval);
 
 /*@}*/
 

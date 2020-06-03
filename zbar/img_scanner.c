@@ -643,13 +643,15 @@ static inline void quiet_border (zbar_image_scanner_t *iscn)
     } while(0);
 
 int zbar_scan_image (zbar_image_scanner_t *iscn,
-                     zbar_image_t *img, void (*_PA_YieldAbsolute)(void))
+                     zbar_image_t *img, void (*_PA_YieldAbsolute)(void), size_t interval)
 {
     zbar_symbol_set_t *syms;
     const uint8_t *data;
     zbar_scanner_t *scn = iscn->scn;
     unsigned w, h, cx1, cy1;
     int density;
+    
+    unsigned int counter = 0;
 
     /* timestamp image
      * FIXME prefer video timestamp
@@ -709,13 +711,21 @@ int zbar_scan_image (zbar_image_scanner_t *iscn,
         iscn->v = y;
 
         while(y < cy1) {
-						_PA_YieldAbsolute();
+
             int cx0 = img->crop_x;;
             zprintf(128, "img_x+: %04d,%04d @%p\n", x, y, p);
             svg_path_start("vedge", 1. / 32, 0, y + 0.5);
             iscn->dx = iscn->du = 1;
             iscn->umin = cx0;
             while(x < cx1) {
+                
+                if(interval > 0) {
+                    counter++;
+                    if((counter % interval) == 0) {
+                        if(_PA_YieldAbsolute) _PA_YieldAbsolute();
+                    }
+                }
+                
                 uint8_t d = *p;
                 movedelta(1, 0);
                 zbar_scan_y(scn, d);
@@ -734,6 +744,14 @@ int zbar_scan_image (zbar_image_scanner_t *iscn,
             iscn->dx = iscn->du = -1;
             iscn->umin = cx1;
             while(x >= cx0) {
+                
+                if(interval > 0) {
+                    counter++;
+                    if((counter % interval) == 0) {
+                        if(_PA_YieldAbsolute) _PA_YieldAbsolute();
+                    }
+                }
+                
                 uint8_t d = *p;
                 movedelta(-1, 0);
                 zbar_scan_y(scn, d);
@@ -764,13 +782,21 @@ int zbar_scan_image (zbar_image_scanner_t *iscn,
         iscn->v = x;
 
         while(x < cx1) {
-						_PA_YieldAbsolute();
+
             int cy0 = img->crop_y;
             zprintf(128, "img_y+: %04d,%04d @%p\n", x, y, p);
             svg_path_start("vedge", 1. / 32, 0, x + 0.5);
             iscn->dy = iscn->du = 1;
             iscn->umin = cy0;
             while(y < cy1) {
+                
+                if(interval > 0) {
+                    counter++;
+                    if((counter % interval) == 0) {
+                        if(_PA_YieldAbsolute) _PA_YieldAbsolute();
+                    }
+                }
+                
                 uint8_t d = *p;
                 movedelta(0, 1);
                 zbar_scan_y(scn, d);
@@ -789,6 +815,14 @@ int zbar_scan_image (zbar_image_scanner_t *iscn,
             iscn->dy = iscn->du = -1;
             iscn->umin = cy1;
             while(y >= cy0) {
+                
+                if(interval > 0) {
+                    counter++;
+                    if((counter % interval) == 0) {
+                        if(_PA_YieldAbsolute) _PA_YieldAbsolute();
+                    }
+                }
+                
                 uint8_t d = *p;
                 movedelta(0, -1);
                 zbar_scan_y(scn, d);

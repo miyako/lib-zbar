@@ -26,7 +26,7 @@
 #ifdef WIN32
 #define HAVE_ERRNO_H
 #define PRIx32 "PRIx32"
-#define snprintf _snprintf
+//#define snprintf _snprintf
 #define inline __inline
 typedef __int32 int32_t;
 typedef unsigned __int32 uint32_t;

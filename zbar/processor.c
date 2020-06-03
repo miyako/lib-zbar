@@ -133,7 +133,7 @@ int _zbar_process_image (zbar_processor_t *proc,
             proc->syms = NULL;
         }
         zbar_image_scanner_recycle_image(proc->scanner, img);
-        int nsyms = zbar_scan_image(proc->scanner, tmp, NULL);
+        int nsyms = zbar_scan_image(proc->scanner, tmp, NULL, 0);
         _zbar_image_swap_symbols(img, tmp);
 
         zbar_image_destroy(tmp);

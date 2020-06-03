@@ -7,86 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D1CC73EC1CC9F6F000A325A6 /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73A51CC9F6F000A325A6 /* config.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC73ED1CC9F6F000A325A6 /* convert.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73A61CC9F6F000A325A6 /* convert.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC73EE1CC9F6F000A325A6 /* debug.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73A71CC9F6F000A325A6 /* debug.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC73EF1CC9F6F000A325A6 /* codabar.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73A91CC9F6F000A325A6 /* codabar.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC73F01CC9F6F000A325A6 /* codabar.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73AA1CC9F6F000A325A6 /* codabar.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC73F11CC9F6F000A325A6 /* code128.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73AB1CC9F6F000A325A6 /* code128.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC73F21CC9F6F000A325A6 /* code128.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73AC1CC9F6F000A325A6 /* code128.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC73F31CC9F6F000A325A6 /* code39.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73AD1CC9F6F000A325A6 /* code39.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC73F41CC9F6F000A325A6 /* code39.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73AE1CC9F6F000A325A6 /* code39.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC73F51CC9F6F000A325A6 /* code93.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73AF1CC9F6F000A325A6 /* code93.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC73F61CC9F6F000A325A6 /* code93.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73B01CC9F6F000A325A6 /* code93.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC73F71CC9F6F000A325A6 /* databar.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73B11CC9F6F000A325A6 /* databar.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC73F81CC9F6F000A325A6 /* databar.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73B21CC9F6F000A325A6 /* databar.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC73F91CC9F6F000A325A6 /* ean.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73B31CC9F6F000A325A6 /* ean.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC73FA1CC9F6F000A325A6 /* ean.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73B41CC9F6F000A325A6 /* ean.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC73FB1CC9F6F000A325A6 /* i25.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73B51CC9F6F000A325A6 /* i25.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC73FC1CC9F6F000A325A6 /* i25.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73B61CC9F6F000A325A6 /* i25.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC73FD1CC9F6F000A325A6 /* pdf417.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73B71CC9F6F000A325A6 /* pdf417.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC73FE1CC9F6F000A325A6 /* pdf417.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73B81CC9F6F000A325A6 /* pdf417.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC73FF1CC9F6F000A325A6 /* pdf417_hash.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73B91CC9F6F000A325A6 /* pdf417_hash.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC74001CC9F6F000A325A6 /* qr_finder.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73BA1CC9F6F000A325A6 /* qr_finder.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC74011CC9F6F000A325A6 /* qr_finder.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73BB1CC9F6F000A325A6 /* qr_finder.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC74021CC9F6F000A325A6 /* decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73BC1CC9F6F000A325A6 /* decoder.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC74031CC9F6F000A325A6 /* decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73BD1CC9F6F000A325A6 /* decoder.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC74041CC9F6F000A325A6 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73BE1CC9F6F000A325A6 /* error.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC74051CC9F6F000A325A6 /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73BF1CC9F6F000A325A6 /* error.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC74061CC9F6F000A325A6 /* event.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73C01CC9F6F000A325A6 /* event.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC74071CC9F6F000A325A6 /* image.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73C11CC9F6F000A325A6 /* image.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC74081CC9F6F000A325A6 /* image.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73C21CC9F6F000A325A6 /* image.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC74091CC9F6F000A325A6 /* img_scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73C31CC9F6F000A325A6 /* img_scanner.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC740A1CC9F6F000A325A6 /* img_scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73C41CC9F6F000A325A6 /* img_scanner.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC740C1CC9F6F000A325A6 /* mutex.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73C61CC9F6F000A325A6 /* mutex.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC740D1CC9F6F000A325A6 /* lock.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73C81CC9F6F000A325A6 /* lock.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC740E1CC9F6F000A325A6 /* null.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73C91CC9F6F000A325A6 /* null.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC740F1CC9F6F000A325A6 /* posix.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73CA1CC9F6F000A325A6 /* posix.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC74101CC9F6F000A325A6 /* posix.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73CB1CC9F6F000A325A6 /* posix.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC74131CC9F6F000A325A6 /* processor.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73CE1CC9F6F000A325A6 /* processor.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC74141CC9F6F000A325A6 /* processor.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73CF1CC9F6F000A325A6 /* processor.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC74151CC9F6F000A325A6 /* bch15_5.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73D11CC9F6F000A325A6 /* bch15_5.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC74161CC9F6F000A325A6 /* bch15_5.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73D21CC9F6F000A325A6 /* bch15_5.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC74171CC9F6F000A325A6 /* binarize.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73D31CC9F6F000A325A6 /* binarize.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC74181CC9F6F000A325A6 /* binarize.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73D41CC9F6F000A325A6 /* binarize.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC74191CC9F6F000A325A6 /* isaac.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73D51CC9F6F000A325A6 /* isaac.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC741A1CC9F6F000A325A6 /* isaac.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73D61CC9F6F000A325A6 /* isaac.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC741B1CC9F6F000A325A6 /* qrdec.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73D71CC9F6F000A325A6 /* qrdec.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC741C1CC9F6F000A325A6 /* qrdec.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73D81CC9F6F000A325A6 /* qrdec.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC741D1CC9F6F000A325A6 /* qrdectxt.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73D91CC9F6F000A325A6 /* qrdectxt.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC741E1CC9F6F000A325A6 /* rs.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73DA1CC9F6F000A325A6 /* rs.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC741F1CC9F6F000A325A6 /* rs.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73DB1CC9F6F000A325A6 /* rs.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC74201CC9F6F000A325A6 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73DC1CC9F6F000A325A6 /* util.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC74211CC9F6F000A325A6 /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73DD1CC9F6F000A325A6 /* util.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC74221CC9F6F000A325A6 /* qrcode.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73DE1CC9F6F000A325A6 /* qrcode.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC74231CC9F6F000A325A6 /* refcnt.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73DF1CC9F6F000A325A6 /* refcnt.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC74241CC9F6F000A325A6 /* refcnt.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73E01CC9F6F000A325A6 /* refcnt.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC74251CC9F6F000A325A6 /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73E11CC9F6F000A325A6 /* scanner.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC74261CC9F6F000A325A6 /* svg.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73E21CC9F6F000A325A6 /* svg.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC74271CC9F6F000A325A6 /* svg.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73E31CC9F6F000A325A6 /* svg.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC74281CC9F6F000A325A6 /* symbol.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73E41CC9F6F000A325A6 /* symbol.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC74291CC9F6F000A325A6 /* symbol.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73E51CC9F6F000A325A6 /* symbol.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC742A1CC9F6F000A325A6 /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73E61CC9F6F000A325A6 /* thread.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC742B1CC9F6F000A325A6 /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73E71CC9F6F000A325A6 /* timer.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC742D1CC9F6F000A325A6 /* video.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73E91CC9F6F000A325A6 /* video.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC742F1CC9F6F000A325A6 /* window.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73EB1CC9F6F000A325A6 /* window.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC74401CC9F70F00A325A6 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC74311CC9F70F00A325A6 /* config.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC74421CC9F70F00A325A6 /* Exception.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC74341CC9F70F00A325A6 /* Exception.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC74441CC9F70F00A325A6 /* ImageScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC74361CC9F70F00A325A6 /* ImageScanner.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC74461CC9F70F00A325A6 /* QZBar.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC74381CC9F70F00A325A6 /* QZBar.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC74471CC9F70F00A325A6 /* QZBarImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC74391CC9F70F00A325A6 /* QZBarImage.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC74481CC9F70F00A325A6 /* Scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC743A1CC9F70F00A325A6 /* Scanner.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC74491CC9F70F00A325A6 /* Symbol.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC743B1CC9F70F00A325A6 /* Symbol.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC744A1CC9F70F00A325A6 /* Video.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC743C1CC9F70F00A325A6 /* Video.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC744C1CC9F70F00A325A6 /* zbargtk.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC743E1CC9F70F00A325A6 /* zbargtk.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC744D1CC9F70F00A325A6 /* zbar.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC743F1CC9F70F00A325A6 /* zbar.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC74511CC9FCA100A325A6 /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC74501CC9FCA100A325A6 /* window.c */; settings = {ASSET_TAGS = (); }; };
-		D1CC745B1CCA110400A325A6 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC745A1CCA110400A325A6 /* config.h */; settings = {ASSET_TAGS = (); }; };
-		D1CC745D1CCA151300A325A6 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CC745C1CCA151300A325A6 /* libiconv.dylib */; };
+		D14FDC7D2487981E003140A8 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D14FDC7C2487981E003140A8 /* libiconv.tbd */; };
+		D1CC73EC1CC9F6F000A325A6 /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73A51CC9F6F000A325A6 /* config.c */; };
+		D1CC73ED1CC9F6F000A325A6 /* convert.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73A61CC9F6F000A325A6 /* convert.c */; };
+		D1CC73EE1CC9F6F000A325A6 /* debug.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73A71CC9F6F000A325A6 /* debug.h */; };
+		D1CC73EF1CC9F6F000A325A6 /* codabar.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73A91CC9F6F000A325A6 /* codabar.c */; };
+		D1CC73F01CC9F6F000A325A6 /* codabar.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73AA1CC9F6F000A325A6 /* codabar.h */; };
+		D1CC73F11CC9F6F000A325A6 /* code128.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73AB1CC9F6F000A325A6 /* code128.c */; };
+		D1CC73F21CC9F6F000A325A6 /* code128.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73AC1CC9F6F000A325A6 /* code128.h */; };
+		D1CC73F31CC9F6F000A325A6 /* code39.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73AD1CC9F6F000A325A6 /* code39.c */; };
+		D1CC73F41CC9F6F000A325A6 /* code39.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73AE1CC9F6F000A325A6 /* code39.h */; };
+		D1CC73F51CC9F6F000A325A6 /* code93.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73AF1CC9F6F000A325A6 /* code93.c */; };
+		D1CC73F61CC9F6F000A325A6 /* code93.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73B01CC9F6F000A325A6 /* code93.h */; };
+		D1CC73F71CC9F6F000A325A6 /* databar.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73B11CC9F6F000A325A6 /* databar.c */; };
+		D1CC73F81CC9F6F000A325A6 /* databar.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73B21CC9F6F000A325A6 /* databar.h */; };
+		D1CC73F91CC9F6F000A325A6 /* ean.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73B31CC9F6F000A325A6 /* ean.c */; };
+		D1CC73FA1CC9F6F000A325A6 /* ean.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73B41CC9F6F000A325A6 /* ean.h */; };
+		D1CC73FB1CC9F6F000A325A6 /* i25.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73B51CC9F6F000A325A6 /* i25.c */; };
+		D1CC73FC1CC9F6F000A325A6 /* i25.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73B61CC9F6F000A325A6 /* i25.h */; };
+		D1CC73FD1CC9F6F000A325A6 /* pdf417.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73B71CC9F6F000A325A6 /* pdf417.c */; };
+		D1CC73FE1CC9F6F000A325A6 /* pdf417.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73B81CC9F6F000A325A6 /* pdf417.h */; };
+		D1CC73FF1CC9F6F000A325A6 /* pdf417_hash.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73B91CC9F6F000A325A6 /* pdf417_hash.h */; };
+		D1CC74001CC9F6F000A325A6 /* qr_finder.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73BA1CC9F6F000A325A6 /* qr_finder.c */; };
+		D1CC74011CC9F6F000A325A6 /* qr_finder.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73BB1CC9F6F000A325A6 /* qr_finder.h */; };
+		D1CC74021CC9F6F000A325A6 /* decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73BC1CC9F6F000A325A6 /* decoder.c */; };
+		D1CC74031CC9F6F000A325A6 /* decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73BD1CC9F6F000A325A6 /* decoder.h */; };
+		D1CC74041CC9F6F000A325A6 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73BE1CC9F6F000A325A6 /* error.c */; };
+		D1CC74051CC9F6F000A325A6 /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73BF1CC9F6F000A325A6 /* error.h */; };
+		D1CC74061CC9F6F000A325A6 /* event.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73C01CC9F6F000A325A6 /* event.h */; };
+		D1CC74071CC9F6F000A325A6 /* image.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73C11CC9F6F000A325A6 /* image.c */; };
+		D1CC74081CC9F6F000A325A6 /* image.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73C21CC9F6F000A325A6 /* image.h */; };
+		D1CC74091CC9F6F000A325A6 /* img_scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73C31CC9F6F000A325A6 /* img_scanner.c */; };
+		D1CC740A1CC9F6F000A325A6 /* img_scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73C41CC9F6F000A325A6 /* img_scanner.h */; };
+		D1CC740C1CC9F6F000A325A6 /* mutex.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73C61CC9F6F000A325A6 /* mutex.h */; };
+		D1CC740D1CC9F6F000A325A6 /* lock.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73C81CC9F6F000A325A6 /* lock.c */; };
+		D1CC740E1CC9F6F000A325A6 /* null.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73C91CC9F6F000A325A6 /* null.c */; };
+		D1CC740F1CC9F6F000A325A6 /* posix.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73CA1CC9F6F000A325A6 /* posix.c */; };
+		D1CC74101CC9F6F000A325A6 /* posix.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73CB1CC9F6F000A325A6 /* posix.h */; };
+		D1CC74131CC9F6F000A325A6 /* processor.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73CE1CC9F6F000A325A6 /* processor.c */; };
+		D1CC74141CC9F6F000A325A6 /* processor.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73CF1CC9F6F000A325A6 /* processor.h */; };
+		D1CC74151CC9F6F000A325A6 /* bch15_5.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73D11CC9F6F000A325A6 /* bch15_5.c */; };
+		D1CC74161CC9F6F000A325A6 /* bch15_5.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73D21CC9F6F000A325A6 /* bch15_5.h */; };
+		D1CC74171CC9F6F000A325A6 /* binarize.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73D31CC9F6F000A325A6 /* binarize.c */; };
+		D1CC74181CC9F6F000A325A6 /* binarize.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73D41CC9F6F000A325A6 /* binarize.h */; };
+		D1CC74191CC9F6F000A325A6 /* isaac.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73D51CC9F6F000A325A6 /* isaac.c */; };
+		D1CC741A1CC9F6F000A325A6 /* isaac.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73D61CC9F6F000A325A6 /* isaac.h */; };
+		D1CC741B1CC9F6F000A325A6 /* qrdec.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73D71CC9F6F000A325A6 /* qrdec.c */; };
+		D1CC741C1CC9F6F000A325A6 /* qrdec.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73D81CC9F6F000A325A6 /* qrdec.h */; };
+		D1CC741D1CC9F6F000A325A6 /* qrdectxt.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73D91CC9F6F000A325A6 /* qrdectxt.c */; };
+		D1CC741E1CC9F6F000A325A6 /* rs.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73DA1CC9F6F000A325A6 /* rs.c */; };
+		D1CC741F1CC9F6F000A325A6 /* rs.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73DB1CC9F6F000A325A6 /* rs.h */; };
+		D1CC74201CC9F6F000A325A6 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73DC1CC9F6F000A325A6 /* util.c */; };
+		D1CC74211CC9F6F000A325A6 /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73DD1CC9F6F000A325A6 /* util.h */; };
+		D1CC74221CC9F6F000A325A6 /* qrcode.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73DE1CC9F6F000A325A6 /* qrcode.h */; };
+		D1CC74231CC9F6F000A325A6 /* refcnt.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73DF1CC9F6F000A325A6 /* refcnt.c */; };
+		D1CC74241CC9F6F000A325A6 /* refcnt.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73E01CC9F6F000A325A6 /* refcnt.h */; };
+		D1CC74251CC9F6F000A325A6 /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73E11CC9F6F000A325A6 /* scanner.c */; };
+		D1CC74261CC9F6F000A325A6 /* svg.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73E21CC9F6F000A325A6 /* svg.c */; };
+		D1CC74271CC9F6F000A325A6 /* svg.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73E31CC9F6F000A325A6 /* svg.h */; };
+		D1CC74281CC9F6F000A325A6 /* symbol.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC73E41CC9F6F000A325A6 /* symbol.c */; };
+		D1CC74291CC9F6F000A325A6 /* symbol.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73E51CC9F6F000A325A6 /* symbol.h */; };
+		D1CC742A1CC9F6F000A325A6 /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73E61CC9F6F000A325A6 /* thread.h */; };
+		D1CC742B1CC9F6F000A325A6 /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73E71CC9F6F000A325A6 /* timer.h */; };
+		D1CC742D1CC9F6F000A325A6 /* video.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73E91CC9F6F000A325A6 /* video.h */; };
+		D1CC742F1CC9F6F000A325A6 /* window.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC73EB1CC9F6F000A325A6 /* window.h */; };
+		D1CC74401CC9F70F00A325A6 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC74311CC9F70F00A325A6 /* config.h */; };
+		D1CC74421CC9F70F00A325A6 /* Exception.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC74341CC9F70F00A325A6 /* Exception.h */; };
+		D1CC74441CC9F70F00A325A6 /* ImageScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC74361CC9F70F00A325A6 /* ImageScanner.h */; };
+		D1CC74461CC9F70F00A325A6 /* QZBar.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC74381CC9F70F00A325A6 /* QZBar.h */; };
+		D1CC74471CC9F70F00A325A6 /* QZBarImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC74391CC9F70F00A325A6 /* QZBarImage.h */; };
+		D1CC74481CC9F70F00A325A6 /* Scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC743A1CC9F70F00A325A6 /* Scanner.h */; };
+		D1CC74491CC9F70F00A325A6 /* Symbol.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC743B1CC9F70F00A325A6 /* Symbol.h */; };
+		D1CC744A1CC9F70F00A325A6 /* Video.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC743C1CC9F70F00A325A6 /* Video.h */; };
+		D1CC744C1CC9F70F00A325A6 /* zbargtk.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC743E1CC9F70F00A325A6 /* zbargtk.h */; };
+		D1CC744D1CC9F70F00A325A6 /* zbar.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC743F1CC9F70F00A325A6 /* zbar.h */; };
+		D1CC74511CC9FCA100A325A6 /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = D1CC74501CC9FCA100A325A6 /* window.c */; };
+		D1CC745B1CCA110400A325A6 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CC745A1CCA110400A325A6 /* config.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D1CC73001CC9F41300A325A6 /* liblibzbar.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = liblibzbar.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14FDC7C2487981E003140A8 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		D1CC73001CC9F41300A325A6 /* liblibzbar.a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = liblibzbar.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1CC73A51CC9F6F000A325A6 /* config.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = config.c; sourceTree = "<group>"; };
 		D1CC73A61CC9F6F000A325A6 /* convert.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = convert.c; sourceTree = "<group>"; };
 		D1CC73A71CC9F6F000A325A6 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
@@ -162,7 +163,6 @@
 		D1CC743F1CC9F70F00A325A6 /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
 		D1CC74501CC9FCA100A325A6 /* window.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = window.c; sourceTree = "<group>"; };
 		D1CC745A1CCA110400A325A6 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = include/config.h; sourceTree = SOURCE_ROOT; };
-		D1CC745C1CCA151300A325A6 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,25 +170,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1CC745D1CCA151300A325A6 /* libiconv.dylib in Frameworks */,
+				D14FDC7D2487981E003140A8 /* libiconv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D14FDC7B2487981E003140A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D14FDC7C2487981E003140A8 /* libiconv.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D1CC72F71CC9F41300A325A6 = {
 			isa = PBXGroup;
 			children = (
 				D1CC73A41CC9F6F000A325A6 /* zbar */,
 				D1CC73011CC9F41300A325A6 /* Products */,
+				D14FDC7B2487981E003140A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		D1CC73011CC9F41300A325A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D1CC73001CC9F41300A325A6 /* liblibzbar.dylib */,
+				D1CC73001CC9F41300A325A6 /* liblibzbar.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,7 +205,6 @@
 		D1CC73A41CC9F6F000A325A6 /* zbar */ = {
 			isa = PBXGroup;
 			children = (
-				D1CC745C1CCA151300A325A6 /* libiconv.dylib */,
 				D1CC74301CC9F70F00A325A6 /* include */,
 				D1CC73A51CC9F6F000A325A6 /* config.c */,
 				D1CC745A1CCA110400A325A6 /* config.h */,
@@ -387,7 +395,7 @@
 			);
 			name = libzbar;
 			productName = libzbar;
-			productReference = D1CC73001CC9F41300A325A6 /* liblibzbar.dylib */;
+			productReference = D1CC73001CC9F41300A325A6 /* liblibzbar.a */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -409,6 +417,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = D1CC72F71CC9F41300A325A6;
@@ -467,7 +476,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -496,10 +505,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 				SYMROOT = build.64;
 			};
 			name = Debug;
@@ -508,7 +517,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -535,9 +544,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 				SYMROOT = build.64;
 			};
 			name = Release;
@@ -545,26 +554,30 @@
 		D1CC73051CC9F41300A325A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = a;
 				EXECUTABLE_PREFIX = lib;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		D1CC73061CC9F41300A325A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_EXTENSION = a;
 				EXECUTABLE_PREFIX = lib;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
